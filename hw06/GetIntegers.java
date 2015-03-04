@@ -23,11 +23,11 @@ import java.util.Scanner;
             // ask user for 5 positive integers
             System.out.print("Please enter 5"+
             " non-negative integers: ");
-            int one;
-            int two;
-            int three;
-            int four;
-            int five;
+            int one=0;
+            int two=0;
+            int three=0;
+            int four=0;
+            int five=0;
             for (int a=0; a<1; a++){
                 System.out.print("First Integer:");
                 one = myScanner.nextInt();
